@@ -158,8 +158,8 @@ footer a {
     color: #024e76;
     margin-bottom: 35px;
     padding: 0 100px 20px 100px;
+    display: inline-block;
     border-bottom: 3px solid;
-    border-color: #39a6b2;
 }
 
 .primary-border {
