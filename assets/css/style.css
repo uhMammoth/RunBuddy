@@ -153,8 +153,8 @@ footer a {
 }
 
 .steps {
-    background-color: #fce138;
     text-align: center;
+    background: #fce138;
 }
 
 .step {
@@ -311,6 +311,7 @@ footer a {
     border: 1px solid #024e76;
     display: block;
     padding: 7px 15px;
+    margin: 10px 0;
     font-size: 16px;
     color: #024e76;
     width: 100%;
@@ -423,10 +424,14 @@ footer a {
     }
 
     .contact-info {
-        text-align: center;
+        text-align: left;
     }
 
     .contact-info > * {
         flex: 0 100%;
+    }
+
+    .contact-form {
+        order: 3;
     }
 }
